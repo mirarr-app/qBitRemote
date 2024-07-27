@@ -1,0 +1,46 @@
+name: qBitRemote
+description: "A Remote for qBitTorrent WebUI"
+
+publish_to: 'none' 
+
+
+
+
+version: 0.0.1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qbittorrent_api: ^1.2.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  file_picker: ^8.0.6
+  path_provider: ^2.0.11
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  
+  flutter_lints: ^3.0.0
+
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: assets/fonts/RobotoMono-VariableFont_wght.ttf
